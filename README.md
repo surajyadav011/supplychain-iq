@@ -18,9 +18,6 @@ Excel and Power BI. This is a personal portfolio project built on public data.
 
 ![Power BI executive summary](powerbi/Screenshot_of_executive_summary.png)
 
-*Power BI executive summary. Two cards in this screenshot use different definitions from the SQL analysis
-(see Notes and limitations): Total Orders counts order items, and Late Delivery Rate includes cancelled shipments.*
-
 ## Business questions
 
 1. How many orders, how much sales and profit?
