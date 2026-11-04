@@ -16,7 +16,7 @@ Excel and Power BI. This is a personal portfolio project built on public data.
 - First Class promises 1 day and averages 2 days. Second Class promises 2 days and averages 3.99.
 - One command (`python run_pipeline.py`) cleans, validates, loads and reports.
 
-![Power BI executive summary](powerbi/Screenshot_of_executive_dashboard.png)
+![Power BI executive summary](powerbi/Screenshot_of_executive_summary.png)
 
 *Power BI executive summary. Two cards in this screenshot use different definitions from the SQL analysis
 (see Notes and limitations): Total Orders counts order items, and Late Delivery Rate includes cancelled shipments.*
