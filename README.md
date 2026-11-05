@@ -147,7 +147,7 @@ The 0.70 difference in sales comes from rounding. MySQL stores each amount with 
 supplychain-iq/
     data/
         raw/            original Kaggle files (not uploaded)
-        clean/          cleaned CSV (created by clean.py, not uploaded)
+        clean/          cleaned CSV (created by clean.py)
     excel/              Excel workbook with KPI sheet and PivotTables
     notebooks/          exploration and cleaning notebook
     powerbi/            Power BI file and dashboard screenshots
