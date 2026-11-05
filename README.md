@@ -12,7 +12,7 @@ Excel and Power BI. This is a personal portfolio project built on public data.
 ## Highlights
 
 - 180,519 order items and 65,752 orders from 2015 to 2018, analyzed with Python, MySQL, Excel and Power BI.
-- 57.29% of delivered items were late. All 26,513 delivered First Class items were late, against 39.77% for Standard Class.
+- 57.3% of delivered items were late. All 26,513 delivered First Class items were late, against 39.77% for Standard Class.
 - First Class promises 1 day and averages 2 days. Second Class promises 2 days and averages 3.99.
 - One command (`python run_pipeline.py`) cleans, validates, loads and reports.
 
@@ -212,9 +212,6 @@ Run the queries in `sql/02_analysis.sql` one at a time in MySQL Workbench.
   not a business decline. Data for 2018 covers January only.
 - Several products have a category that does not match the product name. Category results describe
   this dataset only.
-- The Power BI Late Delivery Rate card is calculated over all items, including cancelled shipments
-  (54.83%). The SQL analysis and the definitions above exclude cancelled shipments (57.29%).
-- The Power BI Total Orders card counts order items (about 181K). Distinct orders are 65,752.
 - The dataset is public and anonymized. Findings describe this dataset, not a real company, and the
   causes of late delivery are not in the data.
 - The pipeline is a local script. It reloads all data on every run and has no scheduler or alerts.
@@ -232,7 +229,7 @@ reconciliation, pipeline automation, Git and GitHub.
 
 ## Author
 
-Your_Name, GitHub: [@surajyadav011](https://github.com/surajyadav011)
+Suraj, GitHub: [@surajyadav011](https://github.com/surajyadav011)
 
 ## License
 
