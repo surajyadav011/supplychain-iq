@@ -197,14 +197,6 @@ python run_pipeline.py
 This creates `data/clean/dataco_clean.csv`, loads the MySQL tables, and writes an Excel report to `reports/`.
 Run the queries in `sql/02_analysis.sql` one at a time in MySQL Workbench.
 
-## Before you use or share this project
-
-- Replace `Your_Name` in the Author section below and in the `LICENSE` file with your own name.
-- Never write a password in code. Use the `DB_PASSWORD` environment variable.
-- Do not commit dataset files. Excel and Power BI files embed the dataset and can carry personal
-  document properties (in Excel: File, Info, Check for Issues, Inspect Document).
-- Use your GitHub noreply email in Git so your personal email is not public.
-
 ## Notes and limitations
 
 - Monthly sales fall sharply after October 2017. Orders did not fall (1,723 in September 2017 and
