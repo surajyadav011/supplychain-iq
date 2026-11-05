@@ -10,7 +10,7 @@ REPORT_DIR = BASE_DIR / "reports"
 DB_URL = URL.create(
     "mysql+pymysql",
     username=os.getenv("DB_USER", "root"),
-    password=os.getenv("DB_PASSWORD", "")  # Leave blank when no database password is configured.,
+    password=os.getenv("DB_PASSWORD", ""),  # Leave blank when no database password is configured.
     host=os.getenv("DB_HOST", "localhost"),
     port=3306,
     database=os.getenv("DB_NAME", "supplychain_iq"),
